@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="scripts/config.js"></script>
+    <script src="scripts/book-api-with-favorit.js"></script>
+    <title>Google Book API</title>
+    <link rel="stylesheet" href="styles/book-api.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Book Details by Google Book API</h1>
+        <form class="form_inline">
+            <div class="form_group">
+                <label for="keyword" class="sr-only">Keyword</label>
+                <input type="text" id="keyword" class="form_control" placeholder="Enter a keyword to search for a book">
+            </div>
+            <div class="form_button">
+                <button type="submit" class="btn">Submit</button>
+            </div>
+        </form>
+        <div class="list"></div>
+    </div>
+</body>
+</html>

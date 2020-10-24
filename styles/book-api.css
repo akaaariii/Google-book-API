@@ -1,0 +1,124 @@
+*,*:before,*:after {
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Nunito', sans-serif;
+}
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* for search form */
+.form_inline {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 100px;
+}
+.form_group {
+    width: 68%;
+}
+.form_control {
+    width: 100%;
+    padding: 5px;
+}
+.form_button {
+    width: 30%;
+}
+button {
+    padding: 5px 15px;
+    border: 2px solid teal;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+}
+
+/* for book list */
+.list {
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.book-item {
+    border: 2px solid #b8b8b8;
+    padding: 5px;
+}
+.book-item h4 {
+    margin-top: 0;
+    margin-left: 45px;
+}
+.inner-item img {
+    cursor: pointer;
+}
+.inner-item img {
+    margin: 0 auto;
+}
+.error {
+    color: #fe5234;
+    margin: 50px;
+}
+
+/* for with favourite button */
+.fa-heart {
+    color: lightgray;
+    font-size: 22px;
+}
+.fa-heart.favourite {
+    color: green;
+}
+.header-item {
+    display: flex;
+    margin: 5px;
+}
+.header-item h2 {
+    margin: 0;
+    padding: 0 15px;
+}
+
+/* for book.html */
+.book {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px 50px;
+}
+.book-image {
+    width: 25%;
+    padding: 20px 30px;
+}
+.book-image img {
+    width: 100%;
+}
+.book-info {
+    width: 70%;
+}
+.book-info h1 {
+    margin-bottom: 0;
+}
+.book-info h2 {
+    margin-top: 0;
+}
+.store-link {
+    background-color: #039be5;
+    color: white;
+    text-decoration: none;
+    padding: 7px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.store-link:hover {
+    background-color: #3abafa;
+}
